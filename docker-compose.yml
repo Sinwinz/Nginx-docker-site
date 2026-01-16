@@ -1,0 +1,10 @@
+services:
+  distrib-html: 
+    image: nginx:alpine
+    container_name: site
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: unless-stopped
+    volumes:
+      - /opt/site/:/usr/share/nginx/html
