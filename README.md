@@ -9,6 +9,6 @@
 cd /opt/
 mkdir site
 cd site
-wget https://github.com/Sinwinz/Nginx-docker-site.git
+wget https://github.com/Sinwinz/Nginx-docker-web.git
 docker compose up -d
 ```
