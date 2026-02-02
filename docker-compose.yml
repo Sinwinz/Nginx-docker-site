@@ -1,5 +1,5 @@
 services:
-  distrib-html: 
+  nginx_web: 
     image: nginx:alpine
     container_name: site
     ports:
@@ -9,3 +9,4 @@ services:
     volumes:
 
       - ./:/usr/share/nginx/html
+
