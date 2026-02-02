@@ -9,6 +9,7 @@
 cd /opt/
 mkdir site
 cd site
-wget https://github.com/Sinwinz/Nginx-docker-web.git
+git clone https://github.com/Sinwinz/Nginx-docker-web.git
+cd Nginx-docker-web
 docker compose up -d
 ```
